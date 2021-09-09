@@ -1,5 +1,7 @@
 <?php
 
+include 'S3.php';
+
 define('S3_ENDPOINT', 's3.amazonaws.com');
 define('S3_BUCKET', 'bucket');
 define('S3_DIR', 'path/to/dir');
